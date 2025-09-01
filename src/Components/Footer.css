@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: #0a996eff;
+  color: rgba(0, 0, 0, 0.644);
+  padding: 20px 20px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+
+  padding-top: 15px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.footer-section h4 {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #302f2f;
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+}

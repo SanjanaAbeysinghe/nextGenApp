@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #eaefff;
+}
+
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin-card {
+  display: flex;
+  width: 900px;
+  height: 570px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.signin-left {
+  flex: 1;
+  padding: 40px;
+  margin: 5px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#logo {
+  font-weight: normal;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.signin-left .logo {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.signin-left h2 {
+  margin-bottom: 20px;
+}
+
+.signin-left label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.signin-left input[type="email"],
+.signin-left input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.signin-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.signin-options a {
+  text-decoration: none;
+  color: #3a9cec;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.primary {
+  background-color: #c0bcbc;
+  color: white;
+}
+
+.facebook {
+  background-color: #c0bcbc;
+  color: white;
+}
+
+.google {
+  background-color: #c0bcbc;
+  color: #333;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #999;
+}
+
+.signin-right {
+  flex: 1;
+  padding: 40px;
+  background-color: rgb(47, 116, 94);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signin-right .logo {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 6px;
+  background: #333;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  width: 100px;
+}
+
+.progress-bar .filled {
+  width: 80%;
+  height: 100%;
+  background-color: #00e676;
+  border-radius: 3px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 300px;
+}
+
+.author {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.brands span {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 5px 0 0;
+  font-size: 12px;
+  color: #ddd;
+}
+
+#aboutUscard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#contactuscard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#facultycard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#paymentcard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#aboutUscard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#Box1 {
+  border: px solid #abe4d3;
+  width: 100%;
+  height: 150px;
+  background-color: #aeffe7;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mission {
+  color: #0a996eff;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00e676;
+  padding: 3px;
+}
+
+#WebDevcard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#DataSciencecard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#GraphicDcard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#CyberScard {
+  margin: 25px;
+  margin-left: 16%;
+  width: 950px;
+  height: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.Working-page {
+  text-align: center;
+}
